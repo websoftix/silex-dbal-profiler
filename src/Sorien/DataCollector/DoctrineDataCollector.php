@@ -49,6 +49,10 @@ class DoctrineDataCollector extends DataCollector
         $this->loggers[$name] = $logger;
     }
 
+    public function reset()
+    {
+    }
+    
     /**
      * {@inheritdoc}
      */
